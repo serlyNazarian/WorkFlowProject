@@ -1,0 +1,111 @@
+@import './fonts';
+$color-Blue: #5C73DB;
+
+body {
+    font-family: "Inter";
+}
+
+.Main-Content {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Login-Container {
+    width: 25%;
+    height: 50%;
+}
+
+.Login-Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+    img {
+       margin: 10px;
+    }
+    span {
+        color: #4338CA;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+}
+
+.Text-Header {
+    span {
+        font-size: 20px;
+        font-style: normal;
+        // color: gray;
+    }
+}
+
+.Form-Inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    label {
+        font-size: 16px;
+        font-style: normal;
+        text-align: start;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    input {
+        font-size: 14px;
+        border: 1px solid $color-Blue;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 15px;
+    }
+    input:focus {
+        border: 1px solid $color-Blue;
+        outline: none;
+    }
+}
+
+.Form-Links-Btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    button {
+        background-color: #4763E4;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 95%;
+        height: 50px;
+        color: white;
+        font-size: 18px;
+    }
+    span {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Helvetica;
+    }
+    span a {
+        text-decoration: underline;
+        color: $color-Blue ;
+    }
+}
+
+input[type="email"]::placeholder {
+    padding-left: 2px;
+}
+
+input[type="password"]::placeholder {
+    padding-left: 2px;
+}

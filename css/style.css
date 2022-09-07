@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/Inter-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Black";
+  src: url(/fonts/Inter-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-BlackItalic";
+  src: url(/fonts/Inter-BlackItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/fonts/Inter-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-BoldItalic";
+  src: url(/fonts/Inter-BoldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(/fonts/Inter-ExtraBold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-BoldItalic";
+  src: url(/fonts/Inter-ExtraBoldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-ExtraLight";
+  src: url(/fonts/Inter-ExtraLight.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-ExtraLightItalic";
+  src: url(/fonts/Inter-ExtraLightItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Italic";
+  src: url(/fonts/Inter-Italic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url(/fonts/Inter-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-LightItalic";
+  src: url(/fonts/Inter-LightItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url(/fonts/Inter-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-MediumItalic";
+  src: url(/fonts/Inter-MediumItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url(/fonts/Inter-SemiBold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-SemiBoldItalic";
+  src: url(/fonts/Inter-SemiBoldItalic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-Thin";
+  src: url(/fonts/Inter-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: "Inter-ThinItalic";
+  src: url(/fonts/Inter-ThinItalic.otf) format("opentype");
+}
+body {
+  font-family: "Inter";
+}
+
+.Main-Content {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Login-Container {
+  width: 25%;
+  height: 50%;
+}
+
+.Login-Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
+}
+.Login-Header img {
+  margin: 10px;
+}
+.Login-Header span {
+  color: #4338CA;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.Text-Header span {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.Form-Inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.Form-Inputs label {
+  font-size: 16px;
+  font-style: normal;
+  text-align: start;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.Form-Inputs input {
+  font-size: 14px;
+  border: 1px solid #5C73DB;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+.Form-Inputs input:focus {
+  border: 1px solid #5C73DB;
+  outline: none;
+}
+
+.Form-Links-Btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Form-Links-Btns a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Form-Links-Btns button {
+  background-color: #4763E4;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 12px;
+  width: 95%;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+}
+.Form-Links-Btns span {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Helvetica;
+}
+.Form-Links-Btns span a {
+  text-decoration: underline;
+  color: #5C73DB;
+}
+
+input[type=email]::-moz-placeholder {
+  padding-left: 2px;
+}
+
+input[type=email]:-ms-input-placeholder {
+  padding-left: 2px;
+}
+
+input[type=email]::placeholder {
+  padding-left: 2px;
+}
+
+input[type=password]::-moz-placeholder {
+  padding-left: 2px;
+}
+
+input[type=password]:-ms-input-placeholder {
+  padding-left: 2px;
+}
+
+input[type=password]::placeholder {
+  padding-left: 2px;
+}/*# sourceMappingURL=style.css.map */
