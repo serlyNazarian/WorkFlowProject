@@ -1,5 +1,8 @@
 @import './fonts';
 $color-Blue: #5C73DB;
+$color-Gray: #EBEBED;
+$btn-Color: #4763E4;
+$text-Color: #4338CA;
 
 body {
     font-family: "Inter";
@@ -31,7 +34,7 @@ body {
        margin: 10px;
     }
     span {
-        color: #4338CA;
+        color: $text-Color;
         font-weight: bolder;
         font-size: 25px;
     }
@@ -41,7 +44,6 @@ body {
     span {
         font-size: 20px;
         font-style: normal;
-        // color: gray;
     }
 }
 
@@ -58,7 +60,7 @@ body {
     }
     input {
         font-size: 14px;
-        border: 1px solid $color-Blue;
+        border: 1px solid $color-Gray;
         border-radius: 12px;
         padding: 16px;
         margin-bottom: 15px;
@@ -80,7 +82,7 @@ body {
         font-weight: 400;
     }
     button {
-        background-color: #4763E4;
+        background-color: $btn-Color;
         border: none;
         cursor: pointer;
         margin-top: 10px;
